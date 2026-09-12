@@ -1,0 +1,2 @@
+customer_text,reply,human_groundedness,human_helpfulness,human_tone,human_actionability,human_promise_safety,human_overall
+# Add 20-30 sampled generated replies here and score each 1-5 using src/llm_judge.py RUBRIC.

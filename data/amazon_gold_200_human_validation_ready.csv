@@ -1,0 +1,223 @@
+customer_text,intent,final_intent,human_intent,human_notes,label_source
+@AmazonHelp This is what i get https://t.co/ScSlKQaCuA,support_waiting_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp I couldn't find reply option to do it......,email_support_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@AmazonHelp First sent damaged item &amp; now refund is not credited. Ur customer team member assured me for refund in 2 hrs. I want to reorder the product, who will bare the difference amount if the price will increase? How could u pack product when already a label is there mentioning ""damage""",refund_return_issue,refund_status,,,model_reviewed_not_human_gold
+"Dear @115821, I ordered a book but received a bar of soap instead! The soap is nice but I would rather have the book...Please assist? Thanks.",book_order_issue,replacement_or_exchange,,,model_reviewed_not_human_gold
+@AmazonHelp why do u use @118706  2 deliver when their drivers don't have decency to ring the customer's bell &amp; leave note b/c its large pack?,package_delivery_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@117093  are the delivery drivers not supposed to provide doorstep delivery for apt over 2 flights of stairs w/ elevator options?,package_delivery_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+"@115850 You sent me 4 payment failure, cancellation, delivery texts. I am confused. Is it because of Amazon Pay? What’s happening?",amazon_pay_cashback_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+@115830 Surely most people would have a bit of a tidy up if they were having a party. At the very least they would dump the packaging in the spare room so no-one saw it.,packaging_damage_issue,non_actionable,,,model_reviewed_not_human_gold
+@AmazonHelp Contacted customer service many times. They say they will reach out to courier service. Still no contact from courier.,courier_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+@AmazonHelp - so prime deliveries are taking 3 days. Only explanation is you're busy ? Do we get a refund then for our monthly fee ?,prime_delivery_issue,shipping_speed_or_fee,,,model_reviewed_not_human_gold
+"@115850 @115821 @AmazonHelp He dint really misbehaved rest everything is right They also committed me delivery tomorrow on  priority,But precisely they dint mentioned https://t.co/7eozLcvKgN",delivery_attempt_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@AmazonHelp @115830 blocking my account also twice for no reason is a joke also.,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+"@AmazonHelp Got the call made thankyou so much! 
+There is some problem with the helpline number please do look after it",customer_contact_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"When I select ""Amazon.in Gift Card - In a White Box"" for 500 INR, I am getting error ""Required details are invalid"" @115850",payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+"@115850 your help would really appreciated 
+__email__
+Yet to get confirmation for the pick up of my motog5plus",mobile_phone_purchase_issue,return_pickup,,,model_reviewed_not_human_gold
+@115850 @AmazonHelp Without any mesg. ur courier part. is informing dat cust. delayed the delivery.  (1/2) https://t.co/sCt3IxCFgj,courier_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@AmazonHelp No not yet just found out it’s at the wrong house,support_waiting_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+@AmazonHelp I’ve changed email addresses and also forgotten my amazon password.  Can I get the email address on my account changed or my mobile added to it?,account_security_scam_issue,account_access_or_security,,,model_reviewed_not_human_gold
+"@115821 needs a ""Never ship with @132668"" Option. ALWAYS lost or late with no good tracking. Shipped nearly 2 weeks ago, no updates. https://t.co/m7vuWgPRZe",package_tracking_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+@AmazonHelp Yes! Shall I DM you my order number?,order_information_issue,order_status_or_details,,,model_reviewed_not_human_gold
+@AmazonHelp Yeah now it says it will be delivered tomorrow. But it was scheduled to be here yesterday,delivery_date_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@AmazonHelp I'm using the app. I will log on and then it says the above message. I really need to be able to acess it,mobile_app_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@AmazonHelp Still says oct 4th https://t.co/qZHJk9lgvH,delivery_date_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+"@AmazonHelp @115850 Guys, you tried to call. I missed your call. You may call now or let me know and I can call back",customer_contact_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"Was very excited while signing up for @119625, but extremely disappointed at the lack of Kannada content in your video services.",prime_video_issue,product_or_app_support,,,model_reviewed_not_human_gold
+Screaming at my @115833 at 10:45 at night because alexa is stupid and does everything wrong and I hate her #sorryneighbors,alexa_echo_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@115850 @AmazonHelp @115821 Order  #171-8557356-7597938 Not received but showing delivered. Not much help from calls. Plz look into this.,order_information_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+@115821 I cannot log in despite going through the password change. You have not responded to my email. Problems? #amazon,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+"@115821 @119356
+Y do u think that your customers are fool? 
+
+Teach your people some professionalism.",customer_service_complaint,customer_service_complaint,,,model_reviewed_not_human_gold
+"@115821 your packaging policy needs addressing.
+
+Thanks,
+
+Mother Nature https://t.co/IQE0E3rKyc",packaging_damage_issue,customer_service_complaint,,,model_reviewed_not_human_gold
+"Bold move Mr. @115821 delivery driver. While we were in house getting ready to leave, you pulled up in the driveway, rolled down your window &amp; tossed pkgs out. Then you waved at the girls. https://t.co/w3rD0xQIfx",package_delivery_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+Just turned on my #Kindle and there is a strange mark on the inside of the screen. Any advice? @117634 @AmazonHelp @7108 https://t.co/Y9EVQn28CY,kindle_issue,damaged_or_defective_product,,,model_reviewed_not_human_gold
+@AmazonHelp I have shared every detail with me. Go through. Order number and every thing.,order_information_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@115850 Hi, do you accept #sodexo on COD for food items? Although I pay online, bt just curious to know it, would be icing on cake",preorder_release_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+"@AmazonHelp To be fair, Amazon have been great, it’s DPD who don’t seem to care and aren’t being accountable for losing my purchase. It seems that Amazon need to change their distributors as I’m not the only one who feels their service isn’t good enough.",amazon_customer_service_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+@AmazonHelp What option do I select?  I don’t see one for echo ?,alexa_echo_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@AmazonHelp Already shared.Kindly revert back.,customer_details_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@AmazonHelp No, but I spoke with someone this morning and found out that some sellers do not accept gift cards.",payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+@AmazonHelp @119356 still waiting for the cashback u offered on lg q6 for using sbi card for payment,amazon_pay_cashback_issue,amazon_pay_or_cashback,,,model_reviewed_not_human_gold
+@AmazonHelp are you kidding me? I stayed home all day so I won’t miss my delivery and I just received an email saying they tried to deliver....,delivery_attempt_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp Thanks anyway for your help. I appriciate it :),issue_resolved_or_thanks,non_actionable,,,model_reviewed_not_human_gold
+@AmazonHelp please provide comensation also for big big delay in cashaback and trouble caused to me,amazon_pay_cashback_issue,amazon_pay_or_cashback,,,model_reviewed_not_human_gold
+@AmazonHelp Consistently. I would really prefer actual dates to “guaranteed” ones. No matter the cost.,shipping_speed_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+"@115821 But then it's stuff like this, which is pretty disappointing https://t.co/0hLxFeMkAN",support_waiting_issue,customer_service_complaint,,,model_reviewed_not_human_gold
+"Dear @115850, I didn't receive my cashback of Rs 101 for jio recharge even after emailing you twice and both times you requested for extra time but no cb still received. #407-8830154-5994738",amazon_pay_cashback_issue,amazon_pay_or_cashback,,,model_reviewed_not_human_gold
+@118919 I have purchased Lenovo k8 note ....  But heating mobile I want to return it what is process,mobile_phone_purchase_issue,return_request_or_policy,,,model_reviewed_not_human_gold
+@115850 @115821 even after reinstalling the app I’m facing the same problem. Kindly fix it or repay my prime membership. https://t.co/NuoswiZcXK,mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"Saturday @115830 deliveries 💪
+
+Got so many to get through but I’ll be taking a leaf out of @245196’s ‘book’ &amp; will start reading at lunchtime. https://t.co/pjTl4kKpzp",book_order_issue,non_actionable,,,model_reviewed_not_human_gold
+@115821 Found a typo on your app. 🤔. Just thought you'd like to know. 😁 https://t.co/jWAxpIUphx,mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@7108 hello, I got a three month trial with EE and I’m worried I’ve been charged for a book? Can you help.",book_order_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+@115821 Can you price match? Canon PIXMA MX492 Wireless Office Color Printer https://t.co/HVIKVhrxRf,pricing_discount_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+"@115821 one issue 28 days multiple escalations yet no results this is the way Amazon cutomer support works
+#totally #disgusting ☹️",amazon_customer_service_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@115850 For the amazon echo dot, i am not able to find amazon echo app in Appstore.  Is this a different one from the US or UK devices ?",alexa_echo_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@AmazonHelp Hi MJ. Yes I have even changed my password to all lower case and still get error at the bottom of the page,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@AmazonHelp Many thanks! :),issue_resolved_or_thanks,non_actionable,,,model_reviewed_not_human_gold
+@115850 @174957 just ordered a Nokia 6 eagerly waiting https://t.co/CPyIZNU7gg,mobile_phone_purchase_issue,order_status_or_details,,,model_reviewed_not_human_gold
+@115850 i had ordered a slipper on 28th Oct 2017 order id- 408-5895177-9782710 and due to the product quality i applied for return on 3rd Nov 2017 and till date my pickup has not been arranged..please its a request arrange advance refund for me.,refund_return_issue,return_pickup,,,model_reviewed_not_human_gold
+@AmazonHelp delivery driver has just smashed up my clearly marked sealed letterbox and forced a parcel through am very upset,package_delivery_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp How can you tell? When I go on Settings at the bottom it says 'Version: Kindle 4.1.3' is that it?,kindle_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@AmazonHelp Every time I'm told the a/c specialists will get back to me they send this same email. Nothing in spam folder and orders/prime still active. https://t.co/BHm2VHteA6,account_security_scam_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@AmazonHelp Yes, items were shipping between 3 and 5 days when selected. Then after order was placed - 8 days!!!",delivery_date_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+"Blocked Amazon account without  any reason..  Amazon pay got strucked ... Big amount... Very bad experience.. not replying over mails also.
+@115850",account_security_scam_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@115850  tell me what detail do you need? https://t.co/FhtRrOsU76,customer_details_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@115850 Bought a phone. Having horrible experience. No one is allowing me to return it. Is this the great customer experience you boast of? I am starting to lose trust in amazon. Very unhappy. Order# 403-9833466-5427533,mobile_phone_purchase_issue,return_request_or_policy,,,model_reviewed_not_human_gold
+"@AmazonHelp Thank you for providing that information, it is very helpful. The problem is ""Free Delivery"" with Prime is less of a perk when the recourse is a refunded shipping fee.
+
+I literally don't have a place to sleep because I expected to receive this mattress by the ""guaranteed"" date.",prime_delivery_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@AmazonHelp Cool. I have cancelled my order. I am afraid transaction do work that way also.,order_cancellation_issue,order_cancellation,,,model_reviewed_not_human_gold
+@116090 Any reason why I didn't get my GT Sport Limited Edition Code? I got one for standard edition....,preorder_release_issue,preorder_or_release,,,model_reviewed_not_human_gold
+@115850 why do u use employ bad courier like Gati? I m not going to travel 6 kms to receive an order tht u need to deliver at my home.,courier_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp When I finally reached to courier guy to pick up my courier he says it is not with him. Please follow so that I can dm you all the details.,courier_issue,return_pickup,,,model_reviewed_not_human_gold
+"@AmazonHelp Amazon is the carrier. That’s the problem. I never have a problem when it’s usps, FedEx, or ups.",shipping_carrier_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+"@AmazonHelp I have sent about 4 email, almost a week now and still no call from Amazon.",amazon_customer_service_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@AmazonHelp I Want To Know Why I Can't Log In To My Account. I Reset My Password Already, But It Still Says It's Incorrect.",account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+"@AmazonHelp No mail received from you as yet, dont u care abt the correct delivery of ordered products #AmazonIndia",email_support_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@AmazonHelp Please provide me link..m unable to find,customer_details_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@AmazonHelp @115850 no mail rgding solutn bt 4 weting,I nid refund 4 faulty https://t.co/vZOg5p065Z mch I hv 2wet deaftr tmro is Deepawali @115851",refund_return_issue,refund_status,,,model_reviewed_not_human_gold
+@115830  still trying ti track a non delivery  205-5349810-6471507 please send replacements,package_tracking_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+This is not true. No one came to pick up or called us even. Logistics is lying and blaming on customer. @115850 @115851 https://t.co/pwY5jqXnDD,delivery_attempt_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp Not that I can see. https://t.co/rFHjTsBkLa,support_waiting_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp Yes the carrier that amazon prime normally uses. When a parcel came royal mail there was no problem,shipping_carrier_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+"@AmazonHelp @118919  is promoting a jackpot, but I can't open &amp; enroll for it after app download. Help Required.",mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@AmazonHelp I just had the most frustrating customer service experience!👿,customer_service_complaint,customer_service_complaint,,,model_reviewed_not_human_gold
+@AmazonHelp Your team is asking about the details of a credit card. Which is not mine. Can't you people think about the simple point?,payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+@115821 Thanks for sending my credit card into fraud alert. I’m still locked out so I assume I will not be getting my @117013 a7r iii from you. This is frustrating.,payment_gift_card_issue,account_access_or_security,,,model_reviewed_not_human_gold
+"@AmazonHelp Till when is the no cost EMI option available on one plus 5 as I don't wanna miss it , I want to buy it on exchange with EMI , resolve ASAP",mobile_phone_purchase_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+@115821 absolutely shocked at your customer service. Thanks to you I won't have my @38512 book for Fridays book signing 😢😡😤,book_order_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@115850 ordered a book on the website. Not yet delivered and seller not responding. Please help,book_order_issue,package_not_received,,,model_reviewed_not_human_gold
+@AmazonHelp Plz send me the link,customer_details_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp Yes and the email just came in thanks.,email_support_issue,non_actionable,,,model_reviewed_not_human_gold
+@115850 this is a very ridiculous customer service experience they didnt make a delvry attmpt nd den txt us back sayn we have rejected it,customer_service_complaint,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+"@AmazonHelp poor customer service over phone, cannot contact carrier. Cannot even locate my item 26hrs... Cannot escalate locally.... https://t.co/IpvzNV1DlM",customer_contact_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@115850 pathetic service. Goods are returned to seller without an attempt being made to deliver. Poor customer service,delivery_attempt_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp can you let me know if Tracking #: Q22607183783 is going to arrive this evening? App and email says delivery guaranteed today.,package_tracking_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+"@AmazonHelp It's on https://t.co/8NGpBiUTQg , My order is not@egen showing",order_information_issue,order_status_or_details,,,model_reviewed_not_human_gold
+@115821 you made me wait a week for a book. And when it got here it was completely ruined!,book_order_issue,damaged_or_defective_product,,,model_reviewed_not_human_gold
+@AmazonHelp This is the screen Chrome and Firefox send me to when I sign in. https://t.co/QhHWQBjp7B,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@AmazonHelp Not sure if this is the right place to ask but when viewing CDs with multiple editions not all are showing. E.g. below says 15 editions but only showing 1 of each format. Checked on multiple CDs on UK and US site. Is this known and being fixed? Just I use this a lot. https://t.co/BV3gBMG9kT,preorder_release_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@115850 10% discount is not showing in my SBI card when I am select it with Emi. I have simply save platinum Sbi master card,mobile_phone_purchase_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+@115850 when ordering (Order# 171-2363003-3580368) it showed delivery on 18th but then later u scheduled to 23rd. It's wrong. Ordered because I needed it early. https://t.co/qlzNgocWpt,delivery_date_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+"@AmazonHelp I did that before, but if the courier has lost my order and doesn’t return it to you, how will I get my refund!  Not happy.",refund_return_issue,package_not_received,,,model_reviewed_not_human_gold
+"@115830 sometimes I appreciate a company going the extra mile but not one who rings my doorbell at 23:35 and when I open the door find nobody there until a man shouts across the cul-de-sac ""I'VE LEFT A PARCEL ON YOUR DOORSTEP"" WTF?",package_delivery_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp It was 2 day shipping and had only been 1 day so im hopin it was just some kind of mistake and will arrive on the 2nd day,shipping_speed_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+"@AmazonHelp Still no luck... Should I be expecting to see the similar art as what is one the link I shared previously? Searched for one of the artist on the list ""Open Mike Eagle"" and come up with nothing. [image] https://t.co/JOyeKlPm70",customer_details_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@AmazonHelp Your representative was in some foreign country. Kept denying that you quoted a release date of the 12th when I saw this clearly on not only the Web page but the checkout page. When did your representatives begin lying to customers about what Amazon put on its own Web pages?,amazon_customer_service_issue,preorder_or_release,,,model_reviewed_not_human_gold
+@AmazonHelp @115851  I got the defective product I have applied for return..please hep me to to get refund. You people make me frustrated,refund_return_issue,return_request_or_policy,,,model_reviewed_not_human_gold
+"@116090 are you delaying the shipping of items just because customers choose regular free shipping, I'm waiting for my items to be shipped since Saturday Nov 25.",shipping_speed_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@AmazonHelp I have written you people quite a few number of times. But till date there is no final result from Amazon.,amazon_customer_service_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@115850  not provide CX product on time and cancel every time,order_cancellation_issue,order_cancellation,,,model_reviewed_not_human_gold
+@115830 I just had 18 password assistance code emails in 10 minutes would this be someone trying to access my account?,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+"Hey @115850, a book I ordered is being processed for a refund. Reason cited: Customer return. How did I return a book I never received?",book_order_issue,package_not_received,,,model_reviewed_not_human_gold
+@115830 I want to buy a gift card for the Amazon Family Prime pack for a year. How do I do that? Thanks,payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+"@115850 @115821 @115851 Hello @115850 @115821 @AmazonHelp you have done zilch to have my issue resolved. You had confirmed delivery EOD yday! (pic) Contacting customer service has become harrowing!
+@115851 https://t.co/SHgqjSXo1K",delivery_attempt_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@AmazonHelp I have already attached the screenshot. Attaching it again. https://t.co/LMgoaQdC0d,customer_details_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp I can’t sign in to contact customer service. Password is correct. I tried to reset it. https://t.co/aGealFv1Id,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+.@115821 I'm trying to cancel an order but it's not working. Help?,order_cancellation_issue,order_cancellation,,,model_reviewed_not_human_gold
+@AmazonHelp There is no error message this is how my screen looks like when I open app https://t.co/K6NPHleFh0,mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@AmazonHelp Just wanted to say well done to the Amazon Delivery Driver that managed to throw my parcel onto a first floor balcony, which was then left in the rain over night. You Sir, are a credit to the profession. #amazonprime",package_delivery_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@115830 why can’t I preorder just season 6 of #2BrokeGirls ? I already have 1-5 so don’t want to buy 1-6 😭,preorder_release_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@115850 all people listing Amazon is fraud, corrupted, seamless, used seller but fund detected for new products so don't buy any products from fraud Amazon",amazon_customer_service_issue,customer_service_complaint,,,model_reviewed_not_human_gold
+@AmazonHelp been trying to cancel my amazon order which I ordered but has hasn’t even been dispatched. Your agent spent 10 minutes faffing on the phone only to say she can’t cancel it today as the windows gone but can cancel it on the sunday LOL. Please cancel my order,order_cancellation_issue,order_cancellation,,,model_reviewed_not_human_gold
+@119625 why no Kannada movies and TV shows in prime.what is the use for Karnataka people using prime.This is serious,prime_video_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@AmazonHelp Time frame was 12 hrs and it's way past that. Hence, my disappointment.",support_waiting_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp There is no carrier shown it just says “We're preparing your order. Carrier information will be updated soon.”,shipping_carrier_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+@115821 Why is this a girl's step stool?,package_delivery_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@AmazonHelp Yes, it said ""Your package may be lost"" ""You can wait a couple more days or order a replacement."" I just went ahead and ordered a replacement",package_delivery_issue,package_not_received,,,model_reviewed_not_human_gold
+@AmazonHelp Hi I’ve had a suspicious looking email claiming to be from Amazon confirming prime which I haven’t bought. Can I dm screenshot?,account_security_scam_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@AmazonHelp My package says delivered but there’s nothing in front of my house,package_delivery_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+@115850 what is the purpose of getting prime when you can't deliver next day despite an office address was given?,prime_delivery_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@115830 is there a problem with your app? This is showing up for anything remotely electronic. https://t.co/pSrMYWPvVR,mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@AmazonHelp, this has happened to me earlier also. Your courier guys are shitty and don’t deliver packages. Shame on you guys. https://t.co/BSpkwEv7y3",courier_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+Need help to set up amazon seller account @AmazonHelp @115850,account_security_scam_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"My #Kindle app is now in japanese, my books are gone, and #amazon.com doesn't let me log in, even though my email is verified. Why? @115821",kindle_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@115821 has apparently decided fucking over customers is worth saving a few dollars. Maybe I should save a few on my account.,customer_service_complaint,customer_service_complaint,,,model_reviewed_not_human_gold
+"@AmazonHelp I received 2 out of my 3 Amazon Prime orders yesterday.  It is listed as delivered, but I clearly never received my item.  Please help!",prime_delivery_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+"@227091 @115830 This isn’t good. I changed my password as was worried I had been hacked. Seems more likely to be Amazon though, since amount is small.",account_security_scam_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@115850 @174957 I went crazy for a moment when I saw the price and image😜 but then I saw the name😂 LOL https://t.co/yvOf9wrKmJ,pricing_discount_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+@AmazonHelp Thanks for the prompt response.I have supplied the details you've requested.,customer_details_issue,non_actionable,,,model_reviewed_not_human_gold
+. @115821 missed the mark on this one. Still have my fingers crossed that it will arrive today. https://t.co/p2Zakt2CAJ,delivery_date_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@115850 Status -courier unable to contact u.I have my mobile with me and he never contacted me.If u guys dont want to deliver on time then dont sell,courier_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@115850 amazon is no1 fraud company. lazy employees i'm seller last month register my case still no solution of them https://t.co/QZlewWhez5,amazon_customer_service_issue,customer_service_complaint,,,model_reviewed_not_human_gold
+@115821 I am trying to contact your customer services team but phon call disconnected in between why? ???,customer_contact_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@AmazonHelp If I want to rent a textbook for the Jan-April 2018 semester, and the book I need says it needs to be returned 1/20/18, how do I indicate I need it for Jan-April? Or do I need to wait until Jan gets closer to order it?",book_order_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@AmazonHelp We have it on Sling and it works. But, only one t.v. can watch at a time. So we've been using the app through the Firestick",prime_video_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@AmazonHelp Why don't you arrange to send mail to my email id or reply here?,email_support_issue,contact_or_customer_details,,,model_reviewed_not_human_gold
+@117634 your new iPhone app update is extremeeeeely buggy and quits every time I open it,mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"I hate it when @115821 #alexa says something out of no where, then clears the history. Stop #eavesdropping #creepy https://t.co/3Q2mesnNaW",alexa_echo_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@115850 Lightning deal on tenda te-d303 please which was there 2 days back.,pricing_discount_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+@AmazonHelp UPS for all 5 packages :(,shipping_carrier_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+@115850 Cash loaded in AmazonPay on 13th Nov still not reflecting. Where is my money? GIVE ME MY MONEY #amazonpayfraud #amazonfraud @115851 #stupidcustomerservice,amazon_pay_cashback_issue,amazon_pay_or_cashback,,,model_reviewed_not_human_gold
+"@115830 @117634 Setting up my kindle, and can't say 'No' to Kindle unlimited - only option I have is to start a free trial.",kindle_issue,product_or_app_support,,,model_reviewed_not_human_gold
+"@115850 @AmazonHelp hi team, need to know if the balance in amazon pay can be made transferable to other users..as the balance lies idle..",amazon_pay_cashback_issue,amazon_pay_or_cashback,,,model_reviewed_not_human_gold
+"@115850 @AmazonHelp Order 
+405-9915891-5474742 is nt delivered to me.Bt it's shwing delivered.Great disappoint frm #amazon.Plz investigate https://t.co/cpApAljy2t",order_information_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+@117014 @115828 still hasn't given me my beta code for pre ordering.  Why should I have to wait until open beta when I should be playing now!!,preorder_release_issue,preorder_or_release,,,model_reviewed_not_human_gold
+So @115850 prime lists/sells at higher than MRP. Caught. Now bribing me wth Rs.100 voucher. Save that for lawyer fees I'd say. @AmazonHelp,pricing_discount_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+"@AmazonHelp Thank you i was able to do that. Might be a feature you guys could implement in the future. With the option of a gift receipt, add a password type feature so only you could see the purchase regardless of who uses the account.",payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+@AmazonHelp I called customer service she didn’t listen at all I just wanted to complain that my parcels are always left outside and doorbell not rang,package_delivery_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@115850 Haven't received the cash back of Rs.2000/- for my purchase id: 171-5015685-3577969,amazon_pay_cashback_issue,amazon_pay_or_cashback,,,model_reviewed_not_human_gold
+"@AmazonHelp @115850 @115851 
+
+It's almost 5hrs waiting and calling to delivery boy no good no response worst service",delivery_attempt_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+Not happy with your service today.. at all. @115821,customer_service_complaint,customer_service_complaint,,,model_reviewed_not_human_gold
+"@115821- not impressed with your iPhone app. Second time I've run into problem placing order. When I hit ""order"" I'm redirected to home page. I chatted cust service last time and was redirected myself 3 times before I dropped it. I'm not the only one experiencing this. #FixIt",mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@132994 @115850 Waiting for no cost emi on Bajaj finserv card. Hoping to see it in Christmas offers,mobile_phone_purchase_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+@115850 ordered vivo v5s from amazon. delivery boy came on 10th late night and misbehaved...no updte yet..deliver..or refund money https://t.co/RdQNwS9St8,mobile_phone_purchase_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp Today and has now been pushed back to tomorrow supposedly. Tracking still shows its not even In UPS' hands. Called you guys twice today. Emailed support and called ups. No one can tell me anything and it's frustrating. It's been in the same status since 11/28,shipping_carrier_issue,tracking_or_carrier,,,model_reviewed_not_human_gold
+@115830 is this box really necessary for a phone screen protecter!? Blue bins only get emptied once ever 2 weeks ... 🙄 https://t.co/PITvG22hkX,packaging_damage_issue,customer_service_complaint,,,model_reviewed_not_human_gold
+@115850 what kind of delivery agents and customer service guys do you hire ..... services hitting rock bottom. Don't harrow a customer pl,delivery_attempt_issue,customer_service_complaint,,,model_reviewed_not_human_gold
+"@AmazonHelp I have only got Rs.500 cashback &amp; 500 is still remaining.
+But your customer care executives are least bothered about the same.",amazon_pay_cashback_issue,amazon_pay_or_cashback,,,model_reviewed_not_human_gold
+@AmazonHelp thanks for the help,issue_resolved_or_thanks,non_actionable,,,model_reviewed_not_human_gold
+@115821 I’ve already sent two emails and no reply,email_support_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp Twice in last two weeks i had to resort to revise payment...but in vain despite miltiple efforts,payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+@AmazonHelp The Echo DOT is just saying that it cant play music. Playstation 4 Prime-Video-App says connection issue - using German Amazon.,alexa_echo_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@AmazonHelp looks like your AMZL driver at our complex is lazy! https://t.co/Kzpxe6QjfV,shipping_carrier_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp  I can’t sign back in.,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@AmazonHelp I sent the requested info via that link and I mentioned it for better support which I am not getting from Amazon at all.,amazon_customer_service_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@115821 why do you sell visa gift cards but not allow them to be used on your web site?,payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+"On chat with @115821 for 30mins to cancel @115940 sub. Amazon help page sends me to Hulu site, which sends back to Amazon. #terribleservice",prime_delivery_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp rubbish service cancelling an urgent delivery and disabling account for 25 hours! People on the phone less than helpful.,delivery_attempt_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@AmazonHelp No delivery today. Does that mean it should come tomorrow?,delivery_date_issue,delivery_delay_or_date,,,model_reviewed_not_human_gold
+@115821 @AmazonHelp WooW It's 25 days &amp; still item couldn't deliver . today refund of Rs531.25 instead of Rs625.Order id-402-0138261-0371543,order_information_issue,refund_status,,,model_reviewed_not_human_gold
+@AmazonHelp UPS but I've had Amazon official delivery van state in notes they left packages with me when I was home &amp; nothing is on my porch.,shipping_carrier_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+@AmazonHelp Don’t believe that as the last time you sounded very helpful but still failed to deliver then claimed I’d changed the order which I hadn’t and I had stayed in ALL day missing out on a family trip,delivery_attempt_issue,delivery_attempt_or_driver,,,model_reviewed_not_human_gold
+@115830 -had my account hacked &amp; they've switched email address - now Russian! Your call centre are not trained on it. Urgent response pls,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+"Dear @115850, 
+After multiple times of reminders you people have not solved my problem, now only 1 option is left to move consumer forum.",issue_resolved_or_thanks,customer_service_complaint,,,model_reviewed_not_human_gold
+Card gets declined. Clicks try again. Works fine. Not I gotta wait a another day for my new phone. Thanks @115821,payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+"@AmazonHelp It's tomorrow but status of item is delivered ,  track 511366102982",package_tracking_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+@AmazonHelp Thank you. Please add Hindi movie Lootera on Prime.,prime_video_issue,product_or_app_support,,,model_reviewed_not_human_gold
+What's wrong .@115850? First u authorize sellers to sell defunct products (printer) &amp; then d mode of return you decide is self courier! 👎👎,courier_issue,return_pickup,,,model_reviewed_not_human_gold
+@AmazonHelp I’ve already done this and changed my password and it still won’t log me in 🤷🏼‍♀️,account_login_issue,account_access_or_security,,,model_reviewed_not_human_gold
+@AmazonHelp I hope so it’s 2 weeks m chasing,support_waiting_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"@115830 got Amazon gift card (from US), clicked link in email &amp; applied it to my account, but now can't use it when on .co.uk site, why?",payment_gift_card_issue,payment_or_gift_card,,,model_reviewed_not_human_gold
+@AmazonHelp your customer care is saying that I have to send  myself this via post office or any private courier for replacement.why should I do this?,courier_issue,return_pickup,,,model_reviewed_not_human_gold
+"Ok this is a lie @115821 @115830 - been in all day, no sign of it. Order no. 205-6496104-8852338 https://t.co/UsKbcgbSls",order_information_issue,delivered_but_missing,,,model_reviewed_not_human_gold
+@AmazonHelp I have shared my details many times on the link provided by you. How many times will I do the same?,issue_resolved_or_thanks,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@AmazonHelp Response wid unable to find ur order?,order_information_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+@115850 can someone bloody responsible update me on my order number 4__credit_card__?if someone knows customer services could call me??,payment_gift_card_issue,customer_support_or_escalation,,,model_reviewed_not_human_gold
+"Order No: 171-3705259-1179509
+
+I have received stone in my delivery box instead of the product which I ordered and amazon specialist team said go to hell after committing me the refund today. @115850 @115851 @AmazonHelp https://t.co/KFdsbH6nAg",order_information_issue,damaged_or_defective_product,,,model_reviewed_not_human_gold
+@AmazonHelp Never mind! The app just notified me of the code.,mobile_app_issue,non_actionable,,,model_reviewed_not_human_gold
+@AmazonHelp App is updated! I tried on the web browser as well,mobile_app_issue,product_or_app_support,,,model_reviewed_not_human_gold
+@115821 @160663  wtf is this the sale is on 12 and there is no add to cart Option I wasted my 15000  on Amazon pay https://t.co/SrjjJK2rtE,pricing_discount_issue,pricing_discount_or_availability,,,model_reviewed_not_human_gold
+"Dai @115850, why you no send book marks with books purchased anymore? You are forgetting the little things ah?",book_order_issue,product_or_app_support,,,model_reviewed_not_human_gold
