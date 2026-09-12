@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Support Agent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">Amazon</span>
+        <span class="brand-title">Support Agent</span>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="section-label">Workflow</div>
+        <div class="workflow">
+          <div class="workflow-item active">
+            <span class="step-dot"></span>
+            <span>Customer message</span>
+          </div>
+          <div class="workflow-item">
+            <span class="step-dot"></span>
+            <span>Intent routing</span>
+          </div>
+          <div class="workflow-item">
+            <span class="step-dot"></span>
+            <span>Evidence reply</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="section-label">Safety Rules</div>
+        <ul class="rules">
+          <li>No unsupported promises</li>
+          <li>Escalate high-risk intent</li>
+          <li>Use historical evidence</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="topbar">
+        <div>
+          <div class="kicker">Amazon Support Flow</div>
+          <h1>Customer Message Review</h1>
+        </div>
+        <button id="sampleBtn" class="ghost-button">Try sample</button>
+      </section>
+
+      <section class="composer-card">
+        <div class="composer-head">
+          <span class="heading-text">Describe the issue</span>
+          <span id="statusBadge" class="status-badge">Ready</span>
+        </div>
+
+        <textarea id="message" rows="8" placeholder="My package says delivered but I never received it"></textarea>
+
+        <div class="button-row">
+          <button id="sendBtn" class="primary-button">
+            <span class="button-text">Analyze</span>
+            <span class="button-icon">→</span>
+          </button>
+          <button id="clearBtn" class="secondary-button">Clear</button>
+        </div>
+      </section>
+
+      <section id="resultCard" class="result-card hidden">
+        <div class="result-card-header">
+          <div>
+            <span class="result-label">Classification</span>
+            <div id="intentBadge" class="intent-badge">—</div>
+          </div>
+          <div>
+            <span class="result-label">Decision</span>
+            <div id="decisionBadge" class="decision-badge">—</div>
+          </div>
+          <div class="confidence-wrap">
+            <span class="result-label">Confidence</span>
+            <div class="confidence-line">
+              <div class="confidence-track">
+                <div id="confidenceBar" class="confidence-bar"></div>
+              </div>
+              <span id="confidenceText" class="confidence-text">0%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-grid">
+          <div class="result-panel">
+            <div class="panel-title">Draft reply</div>
+            <div id="replyText" class="reply-text"></div>
+          </div>
+          <div class="result-panel">
+            <div class="panel-title">Evidence</div>
+            <div id="evidenceText" class="evidence-text"></div>
+          </div>
+        </div>
+
+        <div class="result-grid lower-grid">
+          <div class="result-panel slim-panel">
+            <div class="panel-title">Reason</div>
+            <div id="reasonText" class="reason-text"></div>
+          </div>
+          <div class="result-panel slim-panel">
+            <div class="panel-title">Playbook</div>
+            <div id="playbookText" class="playbook-text"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+</body>
+</html>

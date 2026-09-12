@@ -1,0 +1,90 @@
+{
+  "account_access_or_security": {
+    "description": "login, locked account, hacked account, suspicious account activity",
+    "playbook": "Acknowledge the access/security concern. Do not request passwords, full card numbers, OTPs, or other secrets in a public reply. Direct the customer to Amazon's official account/support flow and escalate if compromise or financial risk is alleged."
+  },
+  "amazon_pay_or_cashback": {
+    "description": "Amazon Pay balance, cashback, missing cashback",
+    "playbook": "Acknowledge the missing payment/cashback issue. Ask for the minimum safe identifier through a private support channel. Do not promise a refund amount or timing without account access."
+  },
+  "contact_or_customer_details": {
+    "description": "asking for contact details, links, email, or how to reach support",
+    "playbook": "Provide the official support/contact route conceptually and invite the customer to continue privately. Never repeat personal phone numbers or sensitive details in the public draft."
+  },
+  "customer_service_complaint": {
+    "description": "general dissatisfaction, rude service, repeated poor experience",
+    "playbook": "Apologize briefly, acknowledge the experience, avoid arguing, and invite the customer to share the case privately so it can be reviewed."
+  },
+  "customer_support_or_escalation": {
+    "description": "already contacted support, repeated follow-ups, asking for escalation",
+    "playbook": "Acknowledge the repeated effort. Avoid asking for the same details again if they may already have been supplied. Offer escalation/review through a private support channel."
+  },
+  "damaged_or_defective_product": {
+    "description": "damaged, defective, broken or wrong-condition item",
+    "playbook": "Acknowledge the damage/defect. Ask the customer to use the order's return/replacement flow or contact support privately. Do not promise eligibility or a specific refund."
+  },
+  "delivered_but_missing": {
+    "description": "marked delivered but customer cannot find the parcel",
+    "playbook": "Acknowledge that the delivery scan conflicts with the customer's report. Suggest checking the delivery location/neighbours and then using support to investigate the delivery scan. Escalate if the package remains missing."
+  },
+  "delivery_attempt_or_driver": {
+    "description": "failed delivery attempt, driver behaviour, delivery instructions",
+    "playbook": "Acknowledge the delivery-attempt/driver issue and avoid blaming the customer. Ask for order details privately so the delivery event can be reviewed."
+  },
+  "delivery_delay_or_date": {
+    "description": "late delivery or changed/uncertain delivery date",
+    "playbook": "Acknowledge the missed or changed delivery expectation. Avoid inventing a new ETA. Ask the customer to share the order details privately for a current status check."
+  },
+  "non_actionable": {
+    "description": "thanks, praise, acknowledgement, vague message without a support request",
+    "playbook": "Respond briefly and politely if a response is needed; do not manufacture a support action."
+  },
+  "order_cancellation": {
+    "description": "cancel an order",
+    "playbook": "Explain that cancellation depends on the order state. Direct the customer to the order's cancellation option or support flow; do not claim cancellation succeeded."
+  },
+  "order_status_or_details": {
+    "description": "order number, order not showing, general order status",
+    "playbook": "Ask the customer to use the order page/support flow and share the order identifier privately if investigation is needed."
+  },
+  "package_not_received": {
+    "description": "package has not arrived / missing shipment",
+    "playbook": "Acknowledge the missing package. Ask for the order/tracking details through a private support channel and avoid promising replacement/refund before the case is checked."
+  },
+  "payment_or_gift_card": {
+    "description": "payment, charge, gift card, card problem",
+    "playbook": "Acknowledge the payment/gift-card concern. Never ask for full payment-card details publicly. Route to the official payment/support flow for account-specific investigation."
+  },
+  "preorder_or_release": {
+    "description": "preorder, release date, missing release item/code",
+    "playbook": "Acknowledge the preorder/release concern. Do not invent release dates or entitlement. Ask for the order/product details privately for verification."
+  },
+  "pricing_discount_or_availability": {
+    "description": "price, discount, deal, availability, price match",
+    "playbook": "Acknowledge the pricing/availability question. Avoid asserting a current price or promotion unless verified. Direct the customer to the product listing/support flow."
+  },
+  "product_or_app_support": {
+    "description": "app, Kindle, Prime Video, Alexa or product functionality",
+    "playbook": "Acknowledge the product/app problem. Offer a generic troubleshooting/support route and ask for device/app details privately if needed."
+  },
+  "replacement_or_exchange": {
+    "description": "replacement/exchange request",
+    "playbook": "Acknowledge the replacement/exchange request. Explain that eligibility depends on the order/product state and route to the order's replacement flow."
+  },
+  "return_request_or_policy": {
+    "description": "return process, return eligibility or pickup",
+    "playbook": "Acknowledge the return request and direct the customer to the order's return flow. Avoid promising pickup/refund timing without account access."
+  },
+  "shipping_speed_or_fee": {
+    "description": "shipping speed, expedited shipping or shipping fee",
+    "playbook": "Acknowledge the shipping-speed/fee concern. Do not promise an ETA or fee refund without checking the order."
+  },
+  "tracking_or_carrier": {
+    "description": "carrier name, tracking, tracking stalled",
+    "playbook": "Acknowledge the tracking/carrier issue. Ask for the tracking/order number privately and avoid inventing a carrier status."
+  },
+  "return_pickup": {
+    "description": "return pickup, pickup not arranged or rescheduled",
+    "playbook": "Acknowledge the return-pickup problem. Ask the customer to use the order's return flow or share the order details privately so pickup status can be checked."
+  }
+}
