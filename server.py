@@ -20,6 +20,17 @@ def make_agent_response(text: str):
     return agent.run(text)
 
 
+def normalize_request_path(raw_path):
+    """Collapse common slashed and URL-encoded path variants to the canonical API path."""
+    if not raw_path:
+        return "/"
+    parsed = urlparse(raw_path)
+    path = parsed.path or "/"
+    if path != "/" and path.endswith("/"):
+        path = path.rstrip("/")
+    return path
+
+
 def _json_payload(payload, status=200):
     """Return a WSGI-style response tuple for compatibility with Vercel-style exports."""
     body = json.dumps(payload, indent=2, ensure_ascii=False).encode("utf-8")
@@ -38,7 +49,7 @@ def app(environ, start_response):
     providing a standards-compatible export for `app`.
     """
     method = environ.get("REQUEST_METHOD", "GET").upper()
-    path = environ.get("PATH_INFO", "/")
+    path = normalize_request_path(environ.get("PATH_INFO", "/"))
 
     if method == "OPTIONS":
         if path == "/api/agent":
@@ -116,35 +127,39 @@ class AgentHandler(SimpleHTTPRequestHandler):
     def log_message(self, fmt, *args):
         sys.stdout.write("[server] %s\n" % (fmt % args))
 
-    def do_OPTIONS(self):
+    def _path(self):
         parsed = urlparse(self.path)
-        if parsed.path == "/api/agent":
+        path = parsed.path or "/"
+        return path.rstrip("/") if path != "/" else path
+
+    def do_OPTIONS(self):
+        if self._path() == "/api/agent":
             self.send_json({"ok": True, "allowed": ["POST"]}, status=200)
             return
         self.send_json({"ok": True}, status=200)
 
     def do_GET(self):
-        parsed = urlparse(self.path)
-        if parsed.path == "/api/health":
+        path = self._path()
+        if path == "/api/health":
             self.send_json({"status": "ok", "message": "Amazon support agent backend is running."})
             return
 
-        if parsed.path == "/api/evaluate":
+        if path == "/api/evaluate":
             self.send_json({"status": "offline-evaluation", "route": "python -m src.evaluate"})
             return
 
-        if parsed.path in {"/", "/index.html"}:
+        if path in {"/", "/index.html"}:
             self.path = "/index.html"
             return super().do_GET()
 
-        if parsed.path.endswith(".js") or parsed.path.endswith(".css"):
+        if path.endswith(".js") or path.endswith(".css"):
             return super().do_GET()
 
         return super().do_GET()
 
     def do_POST(self):
-        parsed = urlparse(self.path)
-        if parsed.path == "/api/agent":
+        path = self._path()
+        if path == "/api/agent":
             try:
                 length = int(self.headers.get("Content-Length", "0"))
                 body = self.rfile.read(length).decode("utf-8") if length else ""
