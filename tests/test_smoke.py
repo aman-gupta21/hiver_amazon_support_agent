@@ -13,3 +13,8 @@ def test_backend_adapter_smoke():
     assert out["intent"]
     assert out["reply"]
     assert out["decision"] in {"auto-handle", "escalate"}
+
+def test_server_exports_wsgi_app_object():
+    import server
+    assert hasattr(server, "app")
+    assert callable(server.app)

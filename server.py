@@ -4,6 +4,7 @@ import sys
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse
+from io import BytesIO
 
 from src.agent import load_agent
 
@@ -17,6 +18,95 @@ agent, _, _ = load_agent()
 def make_agent_response(text: str):
     """Return the same structured reply payload used by the Python agent."""
     return agent.run(text)
+
+
+def _json_payload(payload, status=200):
+    """Return a WSGI-style response tuple for compatibility with Vercel-style exports."""
+    body = json.dumps(payload, indent=2, ensure_ascii=False).encode("utf-8")
+    return status, body
+
+
+def _text_payload(text, status=200):
+    body = text.encode("utf-8") if isinstance(text, str) else text
+    return status, body
+
+
+def app(environ, start_response):
+    """WSGI-compatible top-level callable expected by Vercel-style Python deploys.
+
+    This preserves the same API surface as the local `server.py` routes while
+    providing a standards-compatible export for `app`.
+    """
+    method = environ.get("REQUEST_METHOD", "GET").upper()
+    path = environ.get("PATH_INFO", "/")
+
+    if method == "OPTIONS":
+        if path == "/api/agent":
+            status, body = _json_payload({"ok": True, "allowed": ["POST"]}, 200)
+        else:
+            status, body = _json_payload({"ok": True}, 200)
+        headers = [
+            ("Content-Type", "application/json; charset=utf-8"),
+            ("Content-Length", str(len(body))),
+            ("Access-Control-Allow-Origin", "*"),
+            ("Access-Control-Allow-Methods", "GET, POST, OPTIONS"),
+            ("Access-Control-Allow-Headers", "Content-Type"),
+        ]
+        start_response(f"{status} OK", headers)
+        return [body]
+
+    if method == "GET" and path == "/api/health":
+        status, body = _json_payload({"status": "ok", "message": "Amazon support agent backend is running."}, 200)
+        headers = [
+            ("Content-Type", "application/json; charset=utf-8"),
+            ("Content-Length", str(len(body))),
+            ("Access-Control-Allow-Origin", "*"),
+        ]
+        start_response(f"{status} OK", headers)
+        return [body]
+
+    if method == "GET" and path == "/api/evaluate":
+        status, body = _json_payload({"status": "offline-evaluation", "route": "python -m src.evaluate"}, 200)
+        headers = [("Content-Type", "application/json; charset=utf-8"), ("Content-Length", str(len(body)))]
+        start_response(f"{status} OK", headers)
+        return [body]
+
+    if method == "POST" and path == "/api/agent":
+        try:
+            length = int(environ.get("CONTENT_LENGTH") or 0)
+            raw = environ.get("wsgi.input").read(length) if length else b""
+            payload = json.loads(raw.decode("utf-8")) if raw.strip() else {}
+            message = payload.get("message") or payload.get("text") or payload.get("customer_message") or ""
+            if not isinstance(message, str):
+                raise ValueError("message must be a string")
+            if not message.strip():
+                raise ValueError("message field is required")
+            result = make_agent_response(message)
+            status, body = _json_payload({"ok": True, "result": result}, 200)
+        except Exception as exc:
+            status, body = _json_payload({"ok": False, "error": str(exc)}, 400)
+        headers = [
+            ("Content-Type", "application/json; charset=utf-8"),
+            ("Content-Length", str(len(body))),
+            ("Access-Control-Allow-Origin", "*"),
+        ]
+        start_response(f"{status} OK", headers)
+        return [body]
+
+    # If deployed under a serverless entry point, default to an empty JSON not-found
+    # response rather than crashing during import-time route inspection.
+    status, body = _json_payload({"ok": False, "error": "not found"}, 404)
+    headers = [
+        ("Content-Type", "application/json; charset=utf-8"),
+        ("Content-Length", str(len(body))),
+        ("Access-Control-Allow-Origin", "*"),
+    ]
+    start_response(f"{status} OK", headers)
+    return [body]
+
+
+# Keep the same public name expected by platform tooling and local references.
+application = app
 
 
 class AgentHandler(SimpleHTTPRequestHandler):
